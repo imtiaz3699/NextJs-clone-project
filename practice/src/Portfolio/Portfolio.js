@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Common/Button'
 
 function Portfolio() {
 
@@ -33,6 +34,24 @@ function Portfolio() {
            } 
             
         </div>
+      </div>
+
+      <div className='flex flex-row justify-between'>
+           <div>
+            <div>Hello,<span>I'm</span> </div>
+            <div>Imtiaz Ahmed</div>
+            <div>Front-End Developer</div>
+            <div>I am committed to finding innovative solutions and continuously experimenting to help my clients achieve their goals.</div>
+            <Button btnText="Let's Talk" className=""/>
+            <div>Check out my 
+            <div>
+              
+            </div>
+            </div>
+           </div>
+           
+            
+           <div></div> 
       </div>
     </div>
   )
